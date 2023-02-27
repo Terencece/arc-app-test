@@ -1,0 +1,47 @@
+name: arc-app-test
+title: arc-app-test
+description: A Blocklet Server blocklet
+keywords:
+  - blocklet
+  - vue
+group: static
+did: z8iZp36cW2ah6Dxe1c9nLsmrdgSy61uSuE5Yu
+main: dist
+author:
+  name: qian
+  email: terence20@protonmail.com
+repository:
+  type: git
+  url: git+https://github.com/blocklet/create-blocklet.git
+specVersion: 1.1.1
+version: 0.1.0
+logo: logo.png
+files:
+  - logo.png
+  - screenshots
+interfaces:
+  - type: web
+    name: publicUrl
+    path: /
+    prefix: "*"
+    port: BLOCKLET_PORT
+    protocol: http
+community: ""
+documentation: ""
+homepage: ""
+license: ""
+payment:
+  price: []
+  share: []
+timeout:
+  start: 60
+requirements:
+  server: ">=1.6.29"
+  os: "*"
+  cpu: "*"
+scripts:
+  dev: npm run start
+environments: []
+capabilities: {}
+screenshots: []
+components: []
